@@ -1,5 +1,4 @@
 "use client"
-
 import type React from "react"
 import { useState } from "react"
 import { ChevronDown, ChevronRight, GripVertical } from "lucide-react"
@@ -28,7 +27,7 @@ const initialMenuItems: MenuItem[] = [
   },
 ]
 
-const MAX_LEVELS = 10
+const MAX_LEVELS = 100
 
 export function MenuBuilder() {
   const [menuItems, setMenuItems] = useState<MenuItem[]>(initialMenuItems)
